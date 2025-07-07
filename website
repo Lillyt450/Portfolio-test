@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Design Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <style>
+        .section-active { border-bottom: 2px solid black; }
+        .section-inactive { color: gray; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
 <!-- Hero Section -->
 <header class="pt-32 pb-20 px-6 md:px-12 lg:px-24">
     <h1 class="text-5xl md:text-7xl font-bold mb-6">Creative<br>Design<br>Portfolio</h1>
@@ -454,3 +468,6 @@
         alert('This is a demo form. In a real portfolio, this would send your message.');
     });
 </script>
+
+</body>
+</html>
